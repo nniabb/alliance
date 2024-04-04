@@ -11,14 +11,14 @@ const UserInfo: React.FC<UserInfoProps> = ({}) => {
   return (
     <div className='flex flex-col gap-[5px]'>
       <p className="text-gray-500 text-sm mt-[8px]">Email Address</p>
-      <Input />
+      <Input placeholder="enter email"/>
       <p className="text-gray-500 text-sm mt-[8px]">Phone Number</p>
       <div className='flex'>
         <PhoneNumberSelect onChange={(value) => setPhoneNumber(value)} />
-        <Input />
+        <Input placeholder="enter number"/>
       </div>
       <p className="text-gray-500 text-sm mt-[8px]">Choose Language</p>
-      <Input />
+      <Input placeholder="choose language" />
     </div>
   );
 }

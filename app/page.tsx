@@ -1,6 +1,7 @@
 import UserInfoBox from "./components/organism/UserInfoBox";
 import PasswordInfoBox from "./components/organism/PasswordInfoBox";
 import WarningBox from "./components/organism/WarningBox";
+import WarningBox2 from "./components/organism/WarningBox2";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
     <UserInfoBox/>
     <PasswordInfoBox/>
     {/* <WarningBox/> */}
+    {/* <WarningBox2/> */}
     </div>
-  );
+  )
 }

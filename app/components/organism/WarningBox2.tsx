@@ -1,6 +1,7 @@
 import React from "react";
 import GotItButton from "../atoms/GotItButton";
 
+
 const WarningBox = ({}) => {
     return(
         <div className="border border-gray-50 flex flex-col items-center w-[380px] p-[20px] gap-[25px] bg-white rounded-[15px]">

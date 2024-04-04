@@ -15,4 +15,4 @@ const PasswordInfoBox = ({}) => {
     )
 }
 
-export default PasswordInfoBox;
+export default PasswordInfoBox; 
