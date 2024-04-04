@@ -11,4 +11,5 @@ const PasswordInfo: React.FC = () => {
     )
 }
 
+
 export default PasswordInfo;
