@@ -33,7 +33,7 @@ const UserInfo: React.FC<UserInfoProps> = () => {
         <Input type='text' placeholder="Choose Language" onChange={(e) => setLanguage(e.target.value)} />
 
         {allInputsFilled() && (
-          <div className='flex mt-[20px] ml-[80%]'>
+          <div className='flex mt-[20px] ml-[85%]'>
             <ButtonEdit title='save' />
           </div>
         )}

@@ -24,7 +24,7 @@ const PasswordInfo: React.FC = () => {
                 onChange={(e) => setRepeatNewPassword(e.target.value)}
             />
             {allFieldsFilled && (
-                <div className='flex mt-[20px] ml-[80%]'>
+                <div className='flex mt-[20px] ml-[85%]'>
                     <ButtonEdit title='save' /> 
                 </div>
             )}
