@@ -13,5 +13,5 @@ const UserInfoBox = ({}) => {
         </div>
     )
 }
-
+ 
 export default UserInfoBox; 
