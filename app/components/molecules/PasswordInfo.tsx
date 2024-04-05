@@ -1,6 +1,7 @@
 import React from "react";
 import InputPassword from "../atoms/InputPassword";
 
+
 const PasswordInfo: React.FC = () => {
     return (
         <div className="flex flex-col">

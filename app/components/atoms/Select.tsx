@@ -21,9 +21,8 @@ const PhoneNumberSelect: React.FC<PhoneNumberSelectProps> = ({ onChange }) => {
         <option key={index} value={option}>{option}</option>
       ))}
     </select>
-  );
+  )
 }
 
+
 export default PhoneNumberSelect;
-
-

@@ -20,7 +20,7 @@ const UserInfo: React.FC<UserInfoProps> = ({}) => {
       <p className="text-gray-500 text-sm mt-[8px]">Choose Language</p>
       <Input placeholder="choose language" />
     </div>
-  );
+  )
 }
 
 
